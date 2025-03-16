@@ -1,0 +1,80 @@
+body {
+    font-family: "Tektur", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+/* Header*/
+.header_container {
+    height: 100vh;
+    background-image: url("Assets/Background.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header_container img {
+    width: 16%;
+    min-width: 260px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    box-shadow: 0px 6px 10px rgba(217, 217, 217, 0.409); 
+}
+
+.header_container p {
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* NavBar menu */
+
+.nav_links {
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
+
+.link-items {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+
+
+}
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    box-shadow: 0px 6px 15px rgba(63, 62, 62, 0.797);
+}
+li {
+    list-style: none;
+}
+
+.link-items:hover {
+    background-color: rgb(151, 71, 226);
+    text-decoration: underline;
+    
+}
+
+main {
+    z-index: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: justify;
+}
